@@ -5,6 +5,7 @@ var edad;
 var estad;
 
 edad = parseInt(document.getElementById("edad").value);
+//hay que traer el estado civil para fucionar ambos
 estado = document.getElementById("estadoCivil").value;
 
 if ( edad >=18 && estado == "Soltero" ){
