@@ -16,7 +16,7 @@ function mostrar()
 		contador++;
 	}
 
-	promedio = acumulador / 5;
+	promedio = acumulador / 5; //tambien se puede dividir por el contador siempre que se inicialice desde 0
 
 document.getElementById('suma').value=acumulador;
 document.getElementById('promedio').value=promedio;
